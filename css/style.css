@@ -1,0 +1,34 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
+.row{
+    margin: 20px 0;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.row > [class^="col"]{
+    background-color: dodgerblue;
+    border: 1px solid white;
+
+    padding: 20px;
+}
+
+.row > [class^="col"] > [class^="col"]{
+    background-color:limegreen;
+    border: 1px solid dodgerblue;
+
+    padding: 20px;
+}
+
+
+/* utils */
